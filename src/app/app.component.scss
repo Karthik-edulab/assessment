@@ -1,0 +1,28 @@
+.main-content{
+    padding-left: 250px;
+    padding-top: 5rem;
+    bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.main-content-res{
+    padding-left: 0px;
+    padding-top: 5rem;
+    bottom: 0;
+  transition: all 0.3s ease;
+}
+
+/* Large screens */
+@media (min-width: 768px) {
+    .main-content{
+        padding-top: 5rem;
+    }
+  }
+  
+  /* Small screens */
+  @media (max-width: 767px) {
+    .main-content{
+        padding-left: 0px;
+        padding-top: 5rem;
+    }
+  }

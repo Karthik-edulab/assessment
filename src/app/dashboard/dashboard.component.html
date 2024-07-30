@@ -1,0 +1,67 @@
+<div class="main">
+    <div class="header">Dashboard</div>
+    <div class="carousel-container" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
+        <div class="carousel-controls-prev">
+            <button (click)="prevSlide()">&#10094;</button>
+
+        </div>
+        <div class="carousel-slide">
+            <img [src]="images[currentIndex].url" [alt]="images[currentIndex].alt">
+        </div>
+        <div class="carousel-controls-next">
+            <button (click)="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/landscape-image-mountain-lake-with-pink-sky-mountains-background_889227-10267.jpg"
+                alt="Card image 1">
+            <div class="card-content">
+                <h3>Card Title 1</h3>
+                <p>Description for card 1. This is some example text for the description.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/landscape-with-lake-mountains-background_889227-21608.jpg"
+                alt="Card image 2">
+            <div class="card-content">
+                <h3>Card Title 2</h3>
+                <p>Description for card 2. This is some example text for the description.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/stunning-image-snow-covered-mountains-lit-by-arctic-night_410516-16470.jpg"
+                alt="Card image 3">
+            <div class="card-content">
+                <h3>Card Title 3</h3>
+                <p>Description for card 3. This is some example text for the description.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://png.pngtree.com/background/20230827/original/pngtree-stunning-arctic-seascape-3d-art-depicting-spectacular-polar-lights-and-nature-picture-image_4847308.jpg"
+                alt="Card image 3">
+            <div class="card-content">
+                <h3>Card Title 4</h3>
+                <p>Description for card 4. This is some example text for the description.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://c4.wallpaperflare.com/wallpaper/299/241/143/nature-sky-aurora-borealis-winter-wallpaper-preview.jpg"
+                alt="Card image 3">
+            <div class="card-content">
+                <h3>Card Title 5</h3>
+                <p>Description for card 5. This is some example text for the description.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://w0.peakpx.com/wallpaper/676/566/HD-wallpaper-log-cabins-in-winter-under-aurora-borealis-r-forest-aurora-borealis-r-cabins-night-winter-log.jpg"
+                alt="Card image 3">
+            <div class="card-content">
+                <h3>Card Title 6</h3>
+                <p>Description for card 6. This is some example text for the description.</p>
+            </div>
+        </div>
+    </div>
+
+</div>

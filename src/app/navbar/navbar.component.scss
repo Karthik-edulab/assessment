@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    align-items: center; 
+    background-color: #f2f2f2; 
+    font-family: Arial, sans-serif; 
+    position: fixed;
+    height: 3.5rem;
+    z-index: 997;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 1rem;
+    background-color:#0F9690;
+    border: #292323 1px solid;
+}
+
+.logo{
+    padding-left: 20px;
+}
+.menu{
+    cursor: pointer;
+}
